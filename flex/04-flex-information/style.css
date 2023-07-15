@@ -1,5 +1,6 @@
 body {
   font-family: 'Courier New', Courier, monospace;
+  text-align: center;
 }
 
 img {
@@ -12,25 +13,22 @@ img {
   font-weight: 900;
 }
 
-.container {
-  display: block;
-  text-align: center;
-}
-
 .card-gallery {
   margin-top: 32px;
   display: flex;
   justify-content: center;
-  align-items: baseline;
   gap: 52px;
 }
 
 .plant-card {
+  max-width: 200px;
+  /*
   display: flex;
   justify-content: center;
   text-align: center;
   flex-wrap: wrap;
   flex: 0 0 200px;
+  */
 }
 
 /* do not edit this footer */
